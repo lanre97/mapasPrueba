@@ -55,6 +55,7 @@ class _AppGPSState extends State<AppGPS> {
   }
 
   _AppGPSState(){
+    obtainKey();
     read();
   }
 
